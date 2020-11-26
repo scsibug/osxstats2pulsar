@@ -67,6 +67,6 @@ Example output:
 ```
 # launchctl list | grep osxstats
 837	0	local.osxstats2pulsar
-``
+```
 
 If the first number is non-zero, that is the PID of the currently running process.
