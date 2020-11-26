@@ -1,4 +1,4 @@
-= Overview
+# Overview
 
 This is just a hack to send health information from my MacBook Pro to a local Pulsar server.
 
@@ -38,11 +38,11 @@ Information is collected on a configurable basis (default 30 sec), and includes:
 
 Each of these categories is written to a Pulsar topic, in Avro format.
 
-= Installation
+# Installation
 
 Copy this directory into root's home (```/var/root/```).
 
-== Python setup
+## Python setup
 
 Using pyenv, install Python 3.8.6, and install the ```pulsar-client``` module via pip.
 
@@ -52,7 +52,7 @@ Set that version as root's default using:
 pyenv global 3.8.6
 ```
 
-== Autorun with Launchd
+## Autorun with Launchd
 
 Copy ```osxstats2pulsar.plist``` into ```/Library/LaunchDaemons```.
 
