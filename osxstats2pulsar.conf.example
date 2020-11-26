@@ -1,0 +1,11 @@
+[pulsar]
+AuthToken=
+PulsarHost=pulsar://localhost:6650
+NetworkTopic=persistent://public/default/macbook-powermetrics-network
+BacklightTopic=persistent://public/default/macbook-powermetrics-backlight
+DiskTopic=persistent://public/default/macbook-powermetrics-disk
+CpuTopic=persistent://public/default/macbook-powermetrics-cpu
+GpuTopic=persistent://public/default/macbook-powermetrics-gpu
+SmcTopic=persistent://public/default/macbook-powermetrics-smc
+SystemTopic=persistent://public/default/macbook-powermetrics-system
+AgentTopic=persistent://public/default/macbook-powermetrics-agent
